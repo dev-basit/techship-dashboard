@@ -1,6 +1,6 @@
 import { PDFDocument } from "pdf-lib";
 
-class PDF {
+class AppPDF {
   static async create() {
     return await PDFDocument.create();
   }
@@ -10,4 +10,4 @@ class PDF {
   }
 }
 
-export const PDF = PDF;
+export const PDF = AppPDF;
