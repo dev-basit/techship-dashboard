@@ -10,4 +10,4 @@ class AppPDF {
   }
 }
 
-export const PDF = AppPDF;
+export { AppPDF };
