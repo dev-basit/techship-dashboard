@@ -33,6 +33,7 @@ const isValidJSON = (str) => {
 
 const Enums = {
   USER_NAME: "username",
+  PROFILE_IMAGE: "profileImage",
   WAREHOUSES: "warehouses",
   PERMISSION: "permission",
   CLIENT_TYPE: "CLIENT_TYPE",
