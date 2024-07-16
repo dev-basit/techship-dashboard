@@ -4,15 +4,20 @@ const EMPLOY = "EMPLOY";
 const CLIENT_TYPE = "CLIENT_TYPE";
 
 export const AppEnums = {
-  SUCCESS: "Success",
-  FAILED: "Failed",
-  EMPLOY: EMPLOY,
-  CLIENT: "CLIENT",
   CLIENT_TYPE: CLIENT_TYPE,
-  ENTER: "Enter",
+  CLIENT: "CLIENT",
+  EMPLOY: EMPLOY,
+  FILTERS_MIN_DATE: "2022-01-01",
+  FILTERS_MAX_DATE: "2040-01-01",
+  TIMEZONE: Intl.DateTimeFormat().resolvedOptions().timeZone,
+  COLUMNS_INDEX_TO_SHOW_ALWAYS: [0, 1, 2, 3],
+
+  SUCCESS: "success",
+  FAILED: "failed",
+  NOT_AVAILABLE: "N/A",
   NO_DATA_FOUND: "No Data Found.",
-  ColumnsIndexesToShowAlways: [0, 1, 2, 3],
-  Timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+  ENTER: "Enter",
+
   IsCurrentUserEmploy: () => LocalStorage.getItem(CLIENT_TYPE) === EMPLOY,
 };
 
