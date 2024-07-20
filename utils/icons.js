@@ -6,6 +6,11 @@ import Error from "@/assets/images/failure.svg";
 import Menu from "@/assets/images/hamburger.svg";
 import ProfileDummy from "@/assets/images/dummy_profile.png";
 import Success from "@/assets/images/success.svg";
+import LeftArrow from "@/assets/images/leftArrow.svg";
+import RightArrow from "@/assets/images/rightArrow.svg";
+import HoverLeftArrow from "@/assets/images/hoverLeftArrow.svg";
+import HoverRighttArrow from "@/assets/images/hoverRightArrow.svg";
+import GoToDetailsPage from "@/assets/images/detail.svg";
 
 export const Icons = {
   ArrowDown,
@@ -15,6 +20,11 @@ export const Icons = {
   ProfileDummy,
   Search: faSearch,
   Success,
+  LeftArrow,
+  RightArrow,
+  HoverLeftArrow,
+  HoverRighttArrow,
+  GoToDetailsPage,
 };
 
 // component
